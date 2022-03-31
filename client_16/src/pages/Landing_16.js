@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../assets/images/logo.svg'
-import main from '../assets/images/main.svg'
+import { logo_16 } from '../components'
+import main from '../assets/images/main-1.svg'
 
 import styled from 'styled-components'
 
@@ -8,7 +8,7 @@ const Landing_16 = () => {
   return (
     <Wrapper>
       <nav>
-          <img src={logo} alt="jobify" className="logo" />
+          <logo_16></logo_16>
       </nav>
       <div className="container page">
           <div className="info">

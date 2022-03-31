@@ -1,4 +1,5 @@
-import Landing_16 from "./pages/Landing_16";
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import { Dashboard_16, Landing_16,Register_16} from "./pages";
 import styled from "styled-components";
 
 
@@ -6,9 +7,13 @@ import styled from "styled-components";
 
 function App_16() {
   return (
-    <div className="App">
-        <Landing_16></Landing_16>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Dashboard_16/>} />
+        <Route path='/landing' element={<Landing_16/>} />
+        <Route path='/register' element={<Register_16/>} />
+      </Routes>
+    </BrowserRouter>  
   );
 }
 

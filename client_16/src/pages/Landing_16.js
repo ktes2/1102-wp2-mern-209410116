@@ -1,5 +1,5 @@
 import React from 'react'
-import { logo_16 } from '../components'
+import { Logo_16 } from '../components'
 import main from '../assets/images/main-1.svg'
 
 import styled from 'styled-components'
@@ -8,7 +8,7 @@ const Landing_16 = () => {
   return (
     <Wrapper>
       <nav>
-          {logo_16}
+         <Logo_16/>
       </nav>
       <div className="container page">
           <div className="info">

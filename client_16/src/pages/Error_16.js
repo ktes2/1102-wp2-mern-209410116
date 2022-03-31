@@ -6,7 +6,7 @@ import Wrapper from '../assets/wrapper/Error_16'
 
 const Error_16 = () => {
   return (
-    <Wrapper className="full-page">
+    <Wrapper className="Full-page">
         <div>
             <img src={img} alt='not found'></img>
             <h3>Ohh! page not found</h3>

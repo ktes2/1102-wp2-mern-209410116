@@ -8,7 +8,7 @@ const Landing_16 = () => {
   return (
     <Wrapper>
       <nav>
-          <logo_16></logo_16>
+          {logo_16}
       </nav>
       <div className="container page">
           <div className="info">

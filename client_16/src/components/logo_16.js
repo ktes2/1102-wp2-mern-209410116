@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../assets/images/logo.svg'
 
-const logo_16 = () => {
+const Logo_16 = () => {
   return (
     <div>
       <img src={logo} alt="jobify" className="logo" />
@@ -9,4 +9,4 @@ const logo_16 = () => {
   )
 }
 
-export default logo_16
+export default Logo_16
